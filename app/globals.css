@@ -1,26 +1,44 @@
 @import "tailwindcss";
 
+/* ── Brand tokens ── */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --blue:   #1B4FA0;
+  --blue-d: #143D7A;
+  --orange: #E84518;
+  --orange-d: #C43A12;
+  --dark:   #0A1628;
+  --muted:  #6B7A90;
+  --surface: #F5F7FA;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+/* ── Base ── */
+html { scroll-behavior: smooth; }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-dm-sans, "DM Sans", system-ui, sans-serif);
+  color: var(--dark);
+  background: #fff;
+  -webkit-font-smoothing: antialiased;
 }
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: var(--font-sora, "Sora", system-ui, sans-serif);
+}
+
+/* ── Layout ── */
+.site-wrap {
+  width: 100%;
+  max-width: 1200px;
+  margin-inline: auto;
+  padding-inline: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .site-wrap { padding-inline: 2.5rem; }
+}
+
+/* ── Utilities ── */
+::selection { background: var(--blue); color: #fff; }
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-track { background: #f1f3f5; }
+::-webkit-scrollbar-thumb { background: var(--blue); border-radius: 3px; }
