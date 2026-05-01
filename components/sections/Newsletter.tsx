@@ -16,7 +16,7 @@ export default function Newsletter() {
 
   return (
     <section className="py-20 bg-[#1B4FA0]">
-      <div className="site-wrap">
+      <div className="max-w-[1200px] mx-auto w-full px-6 md:px-10">
         <div className="max-w-xl mx-auto text-center flex flex-col gap-6">
 
           <div>

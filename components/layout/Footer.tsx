@@ -39,7 +39,7 @@ const SocialIcon = ({ href, label, children }: { href: string; label: string; ch
 export default function Footer() {
   return (
     <footer className="bg-[#0A1628] text-white pt-16 pb-8">
-      <div className="container-site" style={{ paddingInline: "clamp(2.5rem, 6vw, 6rem)" }}>
+      <div className="max-w-[1200px] mx-auto w-full" style={{ paddingInline: "clamp(1.5rem, 5vw, 4rem)" }}>
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 pb-12 border-b border-white/10">
           {/* Brand column */}
           <div className="col-span-2 md:col-span-3 lg:col-span-2">

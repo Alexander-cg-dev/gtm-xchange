@@ -48,8 +48,8 @@ export default function Header() {
       }`}
     >
       <div
-        className="container-site"
-        style={{ paddingInline: "clamp(2.5rem, 6vw, 6rem)" }}
+        className="max-w-[1200px] mx-auto w-full"
+        style={{ paddingInline: "clamp(1.5rem, 5vw, 4rem)" }}
       >
         <div className="flex items-center justify-between h-[72px]">
 

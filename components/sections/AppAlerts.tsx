@@ -15,7 +15,7 @@ const history = [
 export default function AppAlerts() {
   return (
     <section className="py-20 bg-[#0A1628]" style={{ overflow: "hidden" }}>
-      <div className="site-wrap">
+      <div className="max-w-[1200px] mx-auto w-full px-6 md:px-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
 
           {/* ─ Left ─ */}

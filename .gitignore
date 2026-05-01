@@ -13,9 +13,12 @@
 # testing
 /coverage
 
-# next.js
+# next.js — excluir build completo, pero force-add selectivo en deploy
 /.next/
 /out/
+# Dev cache de Turbopack (archivos gigantes, no necesarios en producción)
+/.next/dev/
+/.next/cache/
 
 # production
 /build
@@ -23,6 +26,11 @@
 # misc
 .DS_Store
 *.pem
+
+# Claude Code — configuración local con credenciales, no va al repo
+.claude/
+.firecrawl/
+.mcp.json
 
 # debug
 npm-debug.log*

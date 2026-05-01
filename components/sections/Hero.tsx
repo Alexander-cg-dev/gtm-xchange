@@ -5,7 +5,6 @@ import { ArrowLeftRight, Info, ShieldCheck, ChevronDown } from "lucide-react";
 
 const COMPRA = 3.486;
 const VENTA  = 3.522;
-const BANKS  = ["BCP", "Interbank", "BBVA", "Scotiabank", "Yape", "Plin"];
 
 type Cur = "USD" | "PEN";
 
@@ -41,7 +40,7 @@ export default function Hero() {
       style={{ marginTop: 72 }}
       className="bg-gradient-to-br from-[#EEF4FF] via-white to-[#FFF2EE] py-16 lg:py-24"
     >
-      <div className="site-wrap">
+      <div className="max-w-[1200px] mx-auto w-full px-6 md:px-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
 
           {/* ─── Left: copy ─── */}
@@ -85,19 +84,7 @@ export default function Hero() {
               </p>
             </div>
 
-            {/* Banks */}
-            <div>
-              <p className="text-[11px] font-bold text-[#6B7A90] uppercase tracking-widest mb-2.5">
-                Transferencias inmediatas desde
-              </p>
-              <div className="flex flex-wrap gap-2">
-                {BANKS.map(b => (
-                  <span key={b} className="px-3 py-1.5 bg-white border border-gray-200 rounded-lg text-[13px] font-semibold text-[#0A1628] shadow-sm">
-                    {b}
-                  </span>
-                ))}
-              </div>
-            </div>
+
           </div>
 
           {/* ─── Right: calculator ─── */}

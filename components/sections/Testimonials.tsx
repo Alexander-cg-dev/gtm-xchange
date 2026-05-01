@@ -54,7 +54,7 @@ export default function Testimonials() {
   const [cur, setCur] = useState(0);
   return (
     <section className="py-20 bg-white">
-      <div className="site-wrap">
+      <div className="max-w-[1200px] mx-auto w-full px-6 md:px-10">
 
         <div className="text-center mb-12">
           <p className="text-[13px] font-bold text-[#E84518] uppercase tracking-widest mb-3">Comunidad GTM</p>

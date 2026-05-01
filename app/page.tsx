@@ -1,6 +1,7 @@
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import Hero from "@/components/sections/Hero";
+import BankLogos from "@/components/sections/BankLogos";
 import HowItWorks from "@/components/sections/HowItWorks";
 import AppAlerts from "@/components/sections/AppAlerts";
 import WhyUs from "@/components/sections/WhyUs";
@@ -14,6 +15,7 @@ export default function Home() {
       <Header />
       <main>
         <Hero />
+        <BankLogos />
         <HowItWorks />
         <WhyUs />
         <AppAlerts />

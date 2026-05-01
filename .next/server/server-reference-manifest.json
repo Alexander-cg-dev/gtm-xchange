@@ -1,0 +1,78 @@
+{
+  "node": {
+    "00603c67746488362bf9aa454fc328d60dd474f8af": {
+      "workers": {
+        "app/auth/login/page": {
+          "moduleId": 55895,
+          "async": false,
+          "exportedName": "signOut",
+          "filename": "app/auth/actions.ts"
+        },
+        "app/auth/registro/page": {
+          "moduleId": 11581,
+          "async": false,
+          "exportedName": "signOut",
+          "filename": "app/auth/actions.ts"
+        },
+        "app/dashboard/page": {
+          "moduleId": 54386,
+          "async": false,
+          "exportedName": "signOut",
+          "filename": "app/auth/actions.ts"
+        }
+      },
+      "filename": "app/auth/actions.ts",
+      "exportedName": "signOut"
+    },
+    "40681ae3c2f50b394e22c91dd86e8dd69fdd6ef77c": {
+      "workers": {
+        "app/auth/login/page": {
+          "moduleId": 55895,
+          "async": false,
+          "exportedName": "signUp",
+          "filename": "app/auth/actions.ts"
+        },
+        "app/auth/registro/page": {
+          "moduleId": 11581,
+          "async": false,
+          "exportedName": "signUp",
+          "filename": "app/auth/actions.ts"
+        },
+        "app/dashboard/page": {
+          "moduleId": 54386,
+          "async": false,
+          "exportedName": "signUp",
+          "filename": "app/auth/actions.ts"
+        }
+      },
+      "filename": "app/auth/actions.ts",
+      "exportedName": "signUp"
+    },
+    "40b0a0b643168363b046f94cd4cda964ac13d39119": {
+      "workers": {
+        "app/auth/login/page": {
+          "moduleId": 55895,
+          "async": false,
+          "exportedName": "signIn",
+          "filename": "app/auth/actions.ts"
+        },
+        "app/auth/registro/page": {
+          "moduleId": 11581,
+          "async": false,
+          "exportedName": "signIn",
+          "filename": "app/auth/actions.ts"
+        },
+        "app/dashboard/page": {
+          "moduleId": 54386,
+          "async": false,
+          "exportedName": "signIn",
+          "filename": "app/auth/actions.ts"
+        }
+      },
+      "filename": "app/auth/actions.ts",
+      "exportedName": "signIn"
+    }
+  },
+  "edge": {},
+  "encryptionKey": "v8Mjtu/Wr8pZXxYlKtKfHij8KKOEnde4wfPr0EA59/8="
+}

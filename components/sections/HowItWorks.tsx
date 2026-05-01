@@ -24,7 +24,7 @@ const steps = [
 export default function HowItWorks() {
   return (
     <section className="py-20 bg-white">
-      <div className="site-wrap">
+      <div className="max-w-[1200px] mx-auto w-full px-6 md:px-10">
 
         {/* ─ What is GTM Xchange ─ */}
         <div className="mb-16 max-w-2xl">
