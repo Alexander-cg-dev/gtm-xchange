@@ -74,10 +74,55 @@ type RouteHandlerConfig<Route extends AppRouteHandlerRoutes = AppRouteHandlerRou
   type __Unused = __Check
 }
 
+// Validate ../../app/libro-de-reclamaciones/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/libro-de-reclamaciones">> = Specific
+  const handler = {} as typeof import("../../app/libro-de-reclamaciones/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
 // Validate ../../app/page.tsx
 {
   type __IsExpected<Specific extends AppPageConfig<"/">> = Specific
   const handler = {} as typeof import("../../app/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../app/politica-de-privacidad/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/politica-de-privacidad">> = Specific
+  const handler = {} as typeof import("../../app/politica-de-privacidad/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../app/preguntas-frecuentes/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/preguntas-frecuentes">> = Specific
+  const handler = {} as typeof import("../../app/preguntas-frecuentes/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../app/que-es-gtm-xchange/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/que-es-gtm-xchange">> = Specific
+  const handler = {} as typeof import("../../app/que-es-gtm-xchange/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../app/terminos-y-condiciones/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/terminos-y-condiciones">> = Specific
+  const handler = {} as typeof import("../../app/terminos-y-condiciones/page.js")
   type __Check = __IsExpected<typeof handler>
   // @ts-ignore
   type __Unused = __Check

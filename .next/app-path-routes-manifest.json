@@ -6,5 +6,10 @@
   "/auth/registro/page": "/auth/registro",
   "/dashboard/page": "/dashboard",
   "/favicon.ico/route": "/favicon.ico",
-  "/page": "/"
+  "/libro-de-reclamaciones/page": "/libro-de-reclamaciones",
+  "/page": "/",
+  "/politica-de-privacidad/page": "/politica-de-privacidad",
+  "/preguntas-frecuentes/page": "/preguntas-frecuentes",
+  "/que-es-gtm-xchange/page": "/que-es-gtm-xchange",
+  "/terminos-y-condiciones/page": "/terminos-y-condiciones"
 }

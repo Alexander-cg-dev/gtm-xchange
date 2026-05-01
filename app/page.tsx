@@ -19,8 +19,14 @@ export default function Home() {
         <HowItWorks />
         <WhyUs />
         <AppAlerts />
-        <Stats />
-        <Testimonials />
+        {/* SECCIÓN OCULTA — activar eliminando el div wrapper cuando se indique */}
+        <div style={{display:'none'}}>
+          <Stats />
+        </div>
+        {/* SECCIÓN OCULTA — activar eliminando el div wrapper cuando se indique */}
+        <div style={{display:'none'}}>
+          <Testimonials />
+        </div>
         <Newsletter />
       </main>
       <Footer />

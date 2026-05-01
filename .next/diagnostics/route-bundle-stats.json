@@ -1,12 +1,88 @@
 [
   {
     "route": "/",
-    "firstLoadUncompressedJsBytes": 915622,
+    "firstLoadUncompressedJsBytes": 915918,
+    "firstLoadChunkPaths": [
+      ".next/static/chunks/01xlw8hd842-c.js",
+      ".next/static/chunks/0d3shmwh5_nmn.js",
+      ".next/static/chunks/0qe9r74_cs.q-.js",
+      ".next/static/chunks/09p~js1cmufc1.js",
+      ".next/static/chunks/0699t0sd7e9vb.js",
+      ".next/static/chunks/11qk_vpw_zwkf.js",
+      ".next/static/chunks/0dgq26a5_oy.a.js",
+      ".next/static/chunks/10~x95jhs6ns3.js",
+      ".next/static/chunks/0b~7~ux.mr86a.js",
+      ".next/static/chunks/turbopack-0gexx31cx-kpl.js"
+    ]
+  },
+  {
+    "route": "/libro-de-reclamaciones",
+    "firstLoadUncompressedJsBytes": 794335,
+    "firstLoadChunkPaths": [
+      ".next/static/chunks/01xlw8hd842-c.js",
+      ".next/static/chunks/0d3shmwh5_nmn.js",
+      ".next/static/chunks/0o0c6h-.hw5c5.js",
+      ".next/static/chunks/09p~js1cmufc1.js",
+      ".next/static/chunks/11qk_vpw_zwkf.js",
+      ".next/static/chunks/0dgq26a5_oy.a.js",
+      ".next/static/chunks/10~x95jhs6ns3.js",
+      ".next/static/chunks/0b~7~ux.mr86a.js",
+      ".next/static/chunks/turbopack-0gexx31cx-kpl.js"
+    ]
+  },
+  {
+    "route": "/preguntas-frecuentes",
+    "firstLoadUncompressedJsBytes": 790903,
+    "firstLoadChunkPaths": [
+      ".next/static/chunks/01xlw8hd842-c.js",
+      ".next/static/chunks/0d3shmwh5_nmn.js",
+      ".next/static/chunks/0n6-bm9w21_sg.js",
+      ".next/static/chunks/09p~js1cmufc1.js",
+      ".next/static/chunks/11qk_vpw_zwkf.js",
+      ".next/static/chunks/0dgq26a5_oy.a.js",
+      ".next/static/chunks/10~x95jhs6ns3.js",
+      ".next/static/chunks/0b~7~ux.mr86a.js",
+      ".next/static/chunks/turbopack-0gexx31cx-kpl.js"
+    ]
+  },
+  {
+    "route": "/politica-de-privacidad",
+    "firstLoadUncompressedJsBytes": 778478,
     "firstLoadChunkPaths": [
       ".next/static/chunks/01xlw8hd842-c.js",
       ".next/static/chunks/0d3shmwh5_nmn.js",
       ".next/static/chunks/0y0qa35qtlh0d.js",
-      ".next/static/chunks/0~9rf0a3zdkq2.js",
+      ".next/static/chunks/09p~js1cmufc1.js",
+      ".next/static/chunks/11qk_vpw_zwkf.js",
+      ".next/static/chunks/0dgq26a5_oy.a.js",
+      ".next/static/chunks/10~x95jhs6ns3.js",
+      ".next/static/chunks/0b~7~ux.mr86a.js",
+      ".next/static/chunks/turbopack-0gexx31cx-kpl.js"
+    ]
+  },
+  {
+    "route": "/que-es-gtm-xchange",
+    "firstLoadUncompressedJsBytes": 778478,
+    "firstLoadChunkPaths": [
+      ".next/static/chunks/01xlw8hd842-c.js",
+      ".next/static/chunks/0d3shmwh5_nmn.js",
+      ".next/static/chunks/0y0qa35qtlh0d.js",
+      ".next/static/chunks/09p~js1cmufc1.js",
+      ".next/static/chunks/11qk_vpw_zwkf.js",
+      ".next/static/chunks/0dgq26a5_oy.a.js",
+      ".next/static/chunks/10~x95jhs6ns3.js",
+      ".next/static/chunks/0b~7~ux.mr86a.js",
+      ".next/static/chunks/turbopack-0gexx31cx-kpl.js"
+    ]
+  },
+  {
+    "route": "/terminos-y-condiciones",
+    "firstLoadUncompressedJsBytes": 778478,
+    "firstLoadChunkPaths": [
+      ".next/static/chunks/01xlw8hd842-c.js",
+      ".next/static/chunks/0d3shmwh5_nmn.js",
+      ".next/static/chunks/0y0qa35qtlh0d.js",
+      ".next/static/chunks/09p~js1cmufc1.js",
       ".next/static/chunks/11qk_vpw_zwkf.js",
       ".next/static/chunks/0dgq26a5_oy.a.js",
       ".next/static/chunks/10~x95jhs6ns3.js",

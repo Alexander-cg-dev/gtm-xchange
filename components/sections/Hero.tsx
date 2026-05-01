@@ -49,7 +49,7 @@ export default function Hero() {
             {/* Badge */}
             <span className="inline-flex items-center gap-2 self-start bg-white border border-[#1B4FA0]/20 rounded-full px-4 py-1.5 text-[13px] font-medium text-[#1B4FA0] shadow-sm">
               <ShieldCheck size={14} />
-              Registrado en SBS-UIF · 100% seguro
+              Registro en SBS-UIF (en Proceso)
             </span>
 
             {/* Headline */}

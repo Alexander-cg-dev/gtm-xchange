@@ -6,5 +6,10 @@
   "/auth/registro/page": "app/auth/registro/page.js",
   "/dashboard/page": "app/dashboard/page.js",
   "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/page": "app/page.js"
+  "/libro-de-reclamaciones/page": "app/libro-de-reclamaciones/page.js",
+  "/page": "app/page.js",
+  "/politica-de-privacidad/page": "app/politica-de-privacidad/page.js",
+  "/preguntas-frecuentes/page": "app/preguntas-frecuentes/page.js",
+  "/que-es-gtm-xchange/page": "app/que-es-gtm-xchange/page.js",
+  "/terminos-y-condiciones/page": "app/terminos-y-condiciones/page.js"
 }

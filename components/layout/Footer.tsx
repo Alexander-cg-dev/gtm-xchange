@@ -1,28 +1,16 @@
 import Image from "next/image";
+import Link from "next/link";
 import { Mail, Clock } from "lucide-react";
 
 const links = {
-  empresa: [
-    { label: "Para Empresas", href: "#empresas" },
-    { label: "Blog", href: "#blog" },
-    { label: "Trabaja con Nosotros", href: "#empleo" },
-  ],
-  ayuda: [
-    { label: "Atención al Cliente", href: "mailto:contacto@gtm-xchange.com" },
-    { label: "Preguntas Frecuentes", href: "#ayuda" },
-    { label: "WhatsApp", href: "#whatsapp" },
-  ],
   info: [
-    { label: "Beneficios", href: "#beneficios" },
-    { label: "Configurar Alertas", href: "#alertas" },
-    { label: "Tipo de Cambio Hoy", href: "#tipo-de-cambio" },
-    { label: "¿Qué es GTM Xchange?", href: "#nosotros" },
+    { label: "¿Qué es GTM Xchange?", href: "/que-es-gtm-xchange" },
+    { label: "Preguntas Frecuentes", href: "/preguntas-frecuentes" },
   ],
   legal: [
-    { label: "Términos y Condiciones", href: "#terminos" },
-    { label: "Política de Privacidad", href: "#privacidad" },
-    { label: "Derechos ARCO", href: "#derechos-arco" },
-    { label: "Libro de Reclamaciones", href: "#reclamaciones" },
+    { label: "Términos y Condiciones", href: "/terminos-y-condiciones" },
+    { label: "Política de Privacidad", href: "/politica-de-privacidad" },
+    { label: "Libro de Reclamaciones", href: "/libro-de-reclamaciones" },
   ],
 };
 
@@ -86,9 +74,7 @@ export default function Footer() {
 
           {/* Link columns */}
           {[
-            { title: "Empresa", items: links.empresa },
-            { title: "Ayuda", items: links.ayuda },
-            { title: "Más información", items: links.info },
+            { title: "Información", items: links.info },
             { title: "Legal", items: links.legal },
           ].map((col) => (
             <div key={col.title}>
@@ -98,12 +84,12 @@ export default function Footer() {
               <ul className="space-y-2.5">
                 {col.items.map((item) => (
                   <li key={item.label}>
-                    <a
+                    <Link
                       href={item.href}
                       className="text-[14px] text-white/60 hover:text-white transition-colors"
                     >
                       {item.label}
-                    </a>
+                    </Link>
                   </li>
                 ))}
               </ul>

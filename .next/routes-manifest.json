@@ -70,6 +70,36 @@
       "regex": "^/favicon\\.ico(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/favicon\\.ico(?:/)?$"
+    },
+    {
+      "page": "/libro-de-reclamaciones",
+      "regex": "^/libro\\-de\\-reclamaciones(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/libro\\-de\\-reclamaciones(?:/)?$"
+    },
+    {
+      "page": "/politica-de-privacidad",
+      "regex": "^/politica\\-de\\-privacidad(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/politica\\-de\\-privacidad(?:/)?$"
+    },
+    {
+      "page": "/preguntas-frecuentes",
+      "regex": "^/preguntas\\-frecuentes(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/preguntas\\-frecuentes(?:/)?$"
+    },
+    {
+      "page": "/que-es-gtm-xchange",
+      "regex": "^/que\\-es\\-gtm\\-xchange(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/que\\-es\\-gtm\\-xchange(?:/)?$"
+    },
+    {
+      "page": "/terminos-y-condiciones",
+      "regex": "^/terminos\\-y\\-condiciones(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/terminos\\-y\\-condiciones(?:/)?$"
     }
   ],
   "dataRoutes": [],

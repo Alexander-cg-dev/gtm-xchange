@@ -20,6 +20,12 @@ export default function AppAlerts() {
 
           {/* ─ Left ─ */}
           <div className="flex flex-col gap-6">
+
+            {/* Próximamente badge */}
+            <span className="self-start bg-[#E84518] text-white text-[13px] font-bold uppercase tracking-widest px-4 py-2 rounded-full">
+              Próximamente
+            </span>
+
             <div>
               <p className="text-[13px] font-bold text-[#E84518] uppercase tracking-widest mb-3">
                 App GTM Xchange
@@ -30,7 +36,7 @@ export default function AppAlerts() {
               </h2>
             </div>
 
-            <p className="text-[17px] text-white/65 leading-relaxed">
+            <p className="text-[16px] sm:text-[17px] text-white/65 leading-relaxed">
               Programa el valor del dólar que quieres y te avisamos en el
               momento exacto para que hagas tu cambio de forma inteligente.
               Sin perderte ninguna oportunidad.
@@ -76,7 +82,7 @@ export default function AppAlerts() {
 
           {/* ─ Right: phone mockup ─ */}
           <div className="flex justify-center lg:justify-end">
-            <div className="w-[260px] bg-white/8 rounded-[40px] border-2 border-white/15 p-4 flex flex-col gap-3 backdrop-blur-sm">
+            <div className="w-[240px] sm:w-[260px] bg-white/8 rounded-[40px] border-2 border-white/15 p-4 flex flex-col gap-3 backdrop-blur-sm">
               {/* Rate card */}
               <div className="bg-white/10 rounded-2xl p-4 text-center">
                 <p className="text-[11px] text-white/50 mb-1">Tipo de cambio</p>
